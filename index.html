@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="My chatGPT - Using Mistral API">
+        <meta name="keywords" content="GPT, Mistral, API, HTML, CSS , Javascript, LLM, AI, Front-end">
+        <meta name="author" content="idiss khattabi">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:title" content="MyChatGPT - ask me everything!!" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="imgs/le-chat-logo-large-dark.webp" />
+        <meta property="og:site_name" content="MyChatGPT" />
+        <meta property="fb:admins" content="idriss kh " />
+        <title>MyChatGPT</title>
+        <link rel="shortcut icon" href="imgs/favicon.ico">
+        <link rel="stylesheet" href="styles/myCss-fm.css"> 
+        <link rel="stylesheet" href="styles/style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+          </style>
+
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container welcome flex-ctr-clm">
+            <img src="imgs/le-chat-logo-large-dark.webp" alt="Mistral Logo" style="width: 300px;">
+            <h2>MyChatGPT - Using Mistral API</h2>
+            <p>Welcome to Mistral, You can ask me everything</p> 
+        </div>
+        
+        <div class="chatbox container flex-2str-clm">
+        </div>
+
+        <div class="footer-content flex-center">
+            <textarea id="question-area" rows="1" placeholder="Ask me ...."></textarea>
+            <button id="send-btn" class="btn"> <img src="imgs/paper-plane-solid.svg" alt=""> </button>
+            <button id="mode" class="btn"> <img src="imgs/moon-solid.svg" alt=""> </button>
+            <button id="trash" class="btn"> <img src="imgs/trash-solid.svg" alt=""> </button>
+
+        </div>
+        
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,165 @@
+
+:root {
+    --color1 : hsl(0, 0%, 18%);
+    --color2 : hsl(0, 0%, 40%);
+    --color3 : #21b36e;
+    --color4 : #fff;
+    /* --color4 : #e4e4e4;
+    --color5 : #9f9e9e; */
+
+} 
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+    background-color: var(--color1);
+}
+
+.btn {
+    padding: 13px;
+    font-size: 18px;
+    background: var(--color2);
+    border: none;
+    outline: none;
+    margin: 2px;
+}
+.btn img {
+    width: 21px;
+    color: var(--color4);
+}
+
+/* ****************************************** */
+
+.welcome {
+    height: 80%;
+}
+.welcome img {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+}
+.welcome h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--color4);
+    margin: 20px 0;
+}
+.welcome p{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color4);
+}
+
+/* ****************************************** */
+
+.chatbox {
+    padding-bottom: 100px;
+}
+.chatgpt-chat {
+    background-color: var(--color2);
+}
+.user-chat {
+    background-color: var(--color1);
+}
+
+.user-chat .chat-details {
+    justify-content: flex-start;
+}
+
+.chat-content {
+    padding: 10px;
+    width: 100%;
+}
+
+.chat-content .chat-details {
+    padding: 10px;
+    width: 100%;
+}
+.chat-content .chat-details img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-right: 10px;
+}
+.chat-content .chat-details p {
+    font-size: 15px;
+    color: var(--color4);
+    line-height: 20px;
+    padding: 10px 0;
+}
+.chat-content .copy-btn {
+    margin-left: 20px;
+}
+
+.chat-details div li {
+    color: var(--color4);
+}
+
+/* ------------------------ */
+
+.footer-content {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    background-color: var(--color1);
+    width: 100%;
+}
+
+#question-area {
+    font-size: 16px;
+    background-color: var(--color2);
+    padding: 15px 20px;
+    margin: 10px;
+    margin-right: 0;
+    width: 60%;
+    border: 0;
+    outline: 0;
+    color: var(--color4);
+    resize: none;
+}
+#question-area::placeholder {
+    color: var(--color4);
+}
+#send-btn {
+    margin-left: 0;
+}
+
+/*----------------------------------------------------------------*/
+
+/* Style for the <pre> tag */
+pre {
+    background-color: #2d2d2d; /* Dark background */
+    color: #f8f8f2; /* Light text color */
+    padding: 16px; /* Padding around the code */
+    border-radius: 8px; /* Rounded corners */
+    overflow-x: auto; /* Horizontal scroll for long lines */
+    font-size: 14px; /* Font size */
+    line-height: 1.5; /* Line height for readability */
+    margin: 16px 0; /* Margin around the block */
+    width: 100%;
+}
+
+/* Style for the <code> tag */
+code {
+    background-color: #2d2d2d; /* Match the background with pre */
+    color: #f8f8f2; /* Text color */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    padding: 4px 8px; /* Padding inside inline code */
+    border-radius: 4px; /* Rounded corners for inline code */
+    width: 100%;
+}
+
+/* Optional: Additional styling for code syntax highlighting */
+pre code {
+    color: #f8f8f2; /* Default text color */
+}
+
+pre code .keyword { color: #f92672; } /* Keywords like function, var */
+pre code .string { color: #e6db74; } /* Strings */
+pre code .number { color: #ae81ff; } /* Numbers */
+pre code .comment { color: #75715e; } /* Comments */
+pre code .operator { color: #f8f8f2; } /* Operators like +, = */
+pre code .function { color: #a6e22e; } /* Function names */
+
